@@ -15,6 +15,7 @@
 		E7C21AF02011372100C7F649 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E7C21AEE2011372100C7F649 /* LaunchScreen.storyboard */; };
 		E7C21AFB2011372100C7F649 /* North_East_West_SouthTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7C21AFA2011372100C7F649 /* North_East_West_SouthTests.swift */; };
 		E7C21B062011372100C7F649 /* North_East_West_SouthUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7C21B052011372100C7F649 /* North_East_West_SouthUITests.swift */; };
+		E7C21B1420113AB600C7F649 /* OtherViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7C21B1320113AB600C7F649 /* OtherViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		E7C21B012011372100C7F649 /* North East West SouthUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "North East West SouthUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E7C21B052011372100C7F649 /* North_East_West_SouthUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = North_East_West_SouthUITests.swift; sourceTree = "<group>"; };
 		E7C21B072011372100C7F649 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E7C21B1320113AB600C7F649 /* OtherViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OtherViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +104,7 @@
 				E7C21AE22011372100C7F649 /* AppDelegate.swift */,
 				E7C21AE42011372100C7F649 /* ViewController.swift */,
 				E7C21AE62011372100C7F649 /* Main.storyboard */,
+				E7C21B1320113AB600C7F649 /* OtherViewController.swift */,
 				E7C21AEC2011372100C7F649 /* Assets.xcassets */,
 				E7C21AEE2011372100C7F649 /* LaunchScreen.storyboard */,
 				E7C21AF12011372100C7F649 /* Info.plist */,
@@ -263,6 +266,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E7C21AE52011372100C7F649 /* ViewController.swift in Sources */,
+				E7C21B1420113AB600C7F649 /* OtherViewController.swift in Sources */,
 				E7C21AE32011372100C7F649 /* AppDelegate.swift in Sources */,
 				E7C21AEB2011372100C7F649 /* North_East_West_South.xcdatamodeld in Sources */,
 			);

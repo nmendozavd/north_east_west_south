@@ -20,6 +20,18 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
-
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        let destination = segue.destination as! OtherViewController
+        if segue.identifier == "north"{
+            destination.output = (segue.identifier)
+        }else if segue.identifier == "west"{
+            destination.output = (segue.identifier)
+        }else if segue.identifier == "east"{
+            destination.output = (segue.identifier)
+        }else if segue.identifier == "south"{
+            destination.output = (segue.identifier)
+        }
+    }
+    
 }
 
